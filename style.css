@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.countdownContainer {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #000000;
+    transition: 3s;
+}
+
+.info {
+    font-size: 50px;
+    font-family: 'Ultra', serif;
+}
+
+.info1 {
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.info2 {
+    font-family: 'Pacifico', cursive;
+}
+  
+.image {
+    background-image: url(images/bridge.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+
+.image:hover {
+    background-image: url(images/sss.jpg);
+    transition: 3s;
+    color: black;
+}
+
+.image:hover .countdownContainer {
+    box-shadow: 0 0 5px 3px #ccc;
+}
